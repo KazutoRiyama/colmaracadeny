@@ -1,32 +1,14 @@
-html {
-    text-align: center;  
+* {
+    margin: 0px;
 }
 
 body {
-    margin: 0;
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
 }
 
-.flex-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-header {
-    width: 100%;
-    z-index: 1;
-    height: 69px;
-    background-color: rgb(209, 3, 3);
-    border-bottom: 1px solid rgb(0, 0, 0);
-    align-items: center;
-    position: fixed;
-}
+/* heeader section */
 
-nav {
-    text-align: right;
-    flex-grow: 1;
-}
 
-nav li {
-    display: inline-block;
-    padding: 20px 10px;
-}
+
+
