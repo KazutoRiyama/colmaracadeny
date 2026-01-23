@@ -77,6 +77,9 @@ header img {
         width: 0;
         min-width: 100%;
     }
+    #banner-container button {
+        margin-right: 16px;
+    }
     #content {
         display: flex;
     }
