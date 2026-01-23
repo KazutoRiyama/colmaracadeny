@@ -49,12 +49,15 @@ header img {
 
 /* mobile menu */
 
- @media only screen and (min-device-width: 240px) and (max-device-width: 768px) {
+ @media only screen (max-width: 768px) {
     body {
         background-color: aquamarine;
     }
-    header {
+    #desktop-header {
         display: none;
+    }
+    #mobile-header {
+        display: block;
     }
 }
 
@@ -373,6 +376,7 @@ footer {
     display: flex;
     justify-content: flex-end;
     width: 100%;
+    margin-right: 24px;
 }
 
 #footer-text-left {
