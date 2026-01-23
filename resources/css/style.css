@@ -49,15 +49,18 @@ header img {
 
 /* mobile menu */
 
- @media only screen (max-width: 768px) {
+ @media /* only screen */(max-width: 768px) {
     body {
-        background-color: aquamarine;
+        
     }
     #desktop-header {
         display: none;
     }
     #mobile-header {
-        display: block;
+        display: flex;
+        text-align: center;
+        align-content: center;
+        justify-content: space-around;
     }
 }
 
