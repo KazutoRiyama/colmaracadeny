@@ -51,7 +51,7 @@ header img {
 
  @media only screen and (max-width: 768px) {
     body {
-        
+        overflow-x: hidden;
     }
     #desktop-header {
         display: none;
@@ -68,6 +68,11 @@ header img {
         display: flex;
         flex-direction: column;
         text-align: center;
+        
+    }
+    #banner-container img {
+        width: 0;
+        min-width: 100%;
     }
 }
 
