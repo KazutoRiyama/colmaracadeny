@@ -306,6 +306,7 @@ header img {
 }
 #start-learning-top {
     display: flex;
+    margin-bottom: 32px;
 }
 
 .box-engineering {
