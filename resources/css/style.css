@@ -141,7 +141,7 @@ header img {
   flex-direction: column;
   margin: 0 auto;
   width: 40%;
-  
+  justify-content: center;
 }
 
 #content-right img {
@@ -163,7 +163,6 @@ header img {
 }
 
 .box-date {
-    padding-top: 32px;
     padding-left: 16px;
     padding-bottom: 16px;
     display: flex;
@@ -183,10 +182,6 @@ header img {
     font-weight: 500;
 }
 
-.content-right-text h2 {
-    
-}
-
 .content-right-text p {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -198,42 +193,182 @@ header img {
     background-color: rgb(207, 207, 207); 
     margin: 0 auto;
     overflow: hidden;
+    width: 100%;
 }
 
-#start-learning img {
+#start-learning-top img {
     height: auto;
+    width: 100%
 }
 
 #start-learning h1{
     text-align: center;
     padding: 32px 0px;
+    color: rgba(0, 0, 0, 0.671);
+    font-size: 3rem;
 }
 
+#start-learning h2 {
+    margin-bottom: 16px;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+#start-learning p {
+    margin-bottom: 16px;
+    color: rgba(0, 0, 0, 0.671);
+}
 #start-learning-top {
     display: flex;
 }
 
 .box-engineering {
-    padding-right: 16px;
+    margin-left: 72px;
+    margin-right: 16px;
+    background-color: white;
 }
 
 .box-computer {
-    padding-left: 16px;
-    padding-right: 16px;
-    border: 1px solid gray;
+    margin-left: 16px;
+    margin-right: 16px;
     background-color: white;
 }
 
 .box-design {
-    padding-left: 16px;
+    margin-right: 72px;
+    margin-left: 16px;
+    background-color: white;
 }
 
 .start-learning-text {
      width: 0;
      min-width: 100%;
+     margin-left: 16px;
+     margin-bottom: 8px;
+     margin-top: 16px;
+}
+
+#start-learning-bottom {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+#start-learning-bottom img {
+    height: auto;
+    width: 100%;
+}
+
+.box-data {
+    margin-left: 72px;
+    margin-right: 16px;
+    background-color: white;
+}
+
+.box-business {
+    margin-left: 16px;
+    margin-right: 16px;
+    background-color: white;
+}
+
+.box-marketing {
+    margin-right: 72px;
+    margin-left: 16px;
+    background-color: white;
 }
 
 /* Thesis Desktop */
 
+#thesis {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.thesis-title {
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0.671);
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.thesis-left {
+    align-items: center;
+    width: 60%;
+    margin-left: 24px;
+    margin-right: 24px;
+    
+}
+
+#thesis h2 {
+    padding-bottom: 8px;
+    padding-top: 24px;
+    color: rgba(0, 0, 0, 0.671);
+}
+
+#thesis p {
+    color: rgba(0, 0, 0, 0.671);
+    font-style: italic;
+}
+
+.thesis-left video {
+    width: 100%;
+}
+
+#thesis-text-left {
+    width: 0;
+    min-width: 100%;
+}
+
+.thesis-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.thesis-text-right {
+    margin-left: 16px;
+}
+
+.box-fisma {
+    display: flex;
+    align-items: center;
+    background-color: rgb(207, 207, 207);
+    padding: 16px;
+}
+
+.box-now {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
 
 /* Footer */
+
+footer {
+    border-top: 1px solid rgb(207, 207, 207);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#footer-text-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#footer-text-left {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+footer p {
+    padding-left: 24px;
+    color: rgba(0, 0, 0, 0.671);
+}
