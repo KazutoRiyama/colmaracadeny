@@ -67,14 +67,24 @@ header img {
     #banner-container{
         display: flex;
         flex-direction: column;
-        text-align: center;
-        
+        text-align: center;  
     }
     #banner-container img {
         width: 0;
         min-width: 100%;
     }
+    #content {
+        display: flex;
+    }
+    #content-left {
+        display: none;
+    }
+    #content #content-right {
+        width: 100%;
+    }
+   
 }
+
 
 /* desktop top banner */
 
