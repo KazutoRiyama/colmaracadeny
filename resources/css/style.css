@@ -49,7 +49,7 @@ header img {
 
 /* mobile menu */
 
- @media /* only screen */(max-width: 768px) {
+ @media only screen (max-width: 768px) {
     body {
         
     }
