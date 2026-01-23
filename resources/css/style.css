@@ -43,7 +43,21 @@ header img {
     text-decoration: none;
 }
 
+#mobile-header {
+    display: none;
+}
+
 /* mobile menu */
+
+@media only screen (max-width:768px) {
+        * {
+            margin: 0;
+        }
+        
+        header {
+            display: none;
+        }
+}
 
 /* desktop top banner */
 
