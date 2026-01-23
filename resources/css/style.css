@@ -47,6 +47,10 @@ header img {
     display: none;
 }
 
+#learning-mobile {
+    display: none;
+}
+
 /* mobile menu */
 
  @media only screen and (max-width: 768px) {
@@ -83,6 +87,48 @@ header img {
         width: 100%;
     }
    
+    /* learning mobile */
+    #start-learning {
+        display: none;
+    }
+    #learning-mobile {
+        display: flex;
+        flex-direction: column;  
+        margin-top: 64px;  
+    }
+    #learning-mobile h1 {
+        color: rgba(0, 0, 0, 0.671);
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    #learning-mobile h2 {
+        background-color: rgb(207, 207, 207);
+        margin-top: 8px;
+        color: rgba(0, 0, 0, 0.671);
+        margin-left: 16px;
+        margin-right: 16px;
+        padding: 20px 0px 20px 16px;
+    }
+    article#thesis .thesis-right {
+        display: none;
+    }
+    article#thesis .thesis-text-left {
+        display: none;
+    }
+    article#thesis .thesis-left video {
+        width: 100%;
+    }
+    article#thesis .thesis-left {
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer {
+        display: flex;
+        
+    }
+    footer #footer-text-right {
+        display: none;
+    }
 }
 
 
