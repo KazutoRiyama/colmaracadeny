@@ -1,34 +1,5 @@
-@media only screen (max-width:768px) {
-     * {
-    margin: 0px;
-  }
-
-  html {
-    font-size: 16px;
-  }
-
-  body {
-    font-family: "Poppins", sans-serif;
-    margin: 0 auto;
-  }
-
-  header {
-    
-  }
-
-  /* Mobile menu */
-  #mobile-header {
-    position: fixed;
-    background-color: white;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 64px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    z-index: 2;
-  }
-
+@media only screen and (min-device-width: 240px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    body {
+        background-color: aquamarine;
+    }
 }
