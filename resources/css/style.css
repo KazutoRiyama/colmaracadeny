@@ -55,7 +55,9 @@ header img {
         }
         
        header  {
-        
+        align-items: center;
+        justify-content: space-around;
+        gap: 16px;
        }
 }
 
