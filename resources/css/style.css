@@ -49,25 +49,7 @@ header img {
 
 /* mobile menu */
 
-@media only screen (max-width:768px) {
-        * {
-            margin: 0;
-        }
-        
-       header  {
-        position: fixed;
-    background-color: white;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 64px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    z-index: 2;
-       }
-}
+ 
 
 /* desktop top banner */
 
