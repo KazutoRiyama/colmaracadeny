@@ -49,7 +49,7 @@ header img {
 
 #banner-container {
     display: flex;
-    background-color: gray;
+    background-color: rgb(207, 207, 207);
     align-items: center;
     margin: 0 auto;
     padding: 64px 0px 32px 0px;
@@ -98,12 +98,10 @@ header img {
 
 #content {
   display: flex;
-  text-align: center;
   margin: 0 auto;
 }
 
 #content-left {
-  border-right: 2px solid rgba(0, 0, 0, 0.671);
   padding-right: 24px;
   padding-left: 24px;
   padding-top: 32px;
@@ -115,14 +113,125 @@ header img {
   padding-bottom: 32px;
 }
 
+#content-left h2 {
+    color: rgba(0, 0, 0, 0.671);
+    font-weight: 750;
+    font-size: 2.5rem;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+#content-left p {
+    color: rgba(0, 0, 0, 0.671);
+    font-style: italic;
+    text-align: center;
+}
+
+#content-left .content-left-end {
+    color: black;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    float: inline-start;
+}
+
 #content-right {
+  border-left: 2px solid rgb(207, 207, 207); 
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 40%;
   
 }
 
+#content-right img {
+    width: 35%;
+    height: auto;
+}
 
+.content-right-text {
+    width: 65%; 
+    padding-left: 16px;
+    color: rgba(0, 0, 0, 0.671)
+}
+
+.box-lecturer {
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    align-items: center;
+    padding: 16px 16px;
+}
+
+.box-date {
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.box-campus {
+    border-top: 1px solid rgb(207, 207, 207);
+    display: flex;
+    align-items: center;
+    padding: 16px 16px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: rgb(38, 153, 230);
+    font-weight: 500;
+}
+
+.content-right-text h2 {
+    
+}
+
+.content-right-text p {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
 
 /* Start learning */
 
+#start-learning {
+    background-color: rgb(207, 207, 207); 
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#start-learning img {
+    height: auto;
+}
+
+#start-learning h1{
+    text-align: center;
+    padding: 32px 0px;
+}
+
+#start-learning-top {
+    display: flex;
+}
+
+.box-engineering {
+    padding-right: 16px;
+}
+
+.box-computer {
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.box-design {
+    padding-left: 16px;
+}
+
+.start-learning-text {
+     width: 0;
+     min-width: 100%;
+}
 
 /* Thesis Desktop */
 
